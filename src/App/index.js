@@ -3,13 +3,15 @@ import './App.css';
 import AppLayout from './AppLayout'
 import AppBar from './AppBar';
 import { AppProvider } from './AppProvider';
+import WelcomeMessage from '../Settings/WelcomeMessage';
+import Settings from '../Settings';
 
 function App() {
   return (
 		<AppLayout>
 			<AppProvider>
 				<AppBar />
-				<h1>Welcome To CryptoDash</h1>
+        <Settings/>
 			</AppProvider>
 		</AppLayout>
 	);
