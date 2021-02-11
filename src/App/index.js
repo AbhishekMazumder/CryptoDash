@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import AppLayout from './AppLayout'
 
 function App() {
   return (
-    <div>
+    <AppLayout>
       Hello World
-    </div>
+    </AppLayout>
   );
 }
 
